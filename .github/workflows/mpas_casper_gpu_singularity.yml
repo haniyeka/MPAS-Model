@@ -22,7 +22,7 @@ jobs:
   Build_Makefile:
     runs-on: [self-hosted, Linux, X64, casper]
     env:
-      IMAGE_PATH: /glade/work/hkashgar/selene_latest.sif
+      IMAGE_PATH: /glade/work/hkashgar/casper_MPAS/selene_latest.sif
     steps:
     - uses: actions/checkout@v3
 
