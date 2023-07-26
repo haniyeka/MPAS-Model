@@ -33,7 +33,7 @@ jobs:
         echo $(pwd)
         echo "Test build..."
         make clean CORE=atmosphere
-        make pgi CORE=atmosphere PRECISION=single OPENACC=true USE_PIO2=true
+        make pgi CORE=atmosphere PRECISION=single USE_PIO2=true
         echo "Build successful"
     - name: Run Tests
       run: |
