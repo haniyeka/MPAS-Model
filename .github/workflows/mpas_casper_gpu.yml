@@ -4,7 +4,7 @@
 # Date: 2023-07-26T10:53:21+00:00
 # Github: haniyeka
 
-name: mpas_casper_cpu
+name: mpas_casper_gpu
 
 on:
   schedule:
